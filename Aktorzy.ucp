@@ -1,0 +1,148 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>5.1</Version>
+    <SavedWith>15.0.7558</SavedWith>
+    <CreatedWith>13.0.6862</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-90074208-fc45-4b82-b86a-93e752f99363</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-90074208-fc45-4b82-b86a-93e752f99363</UniqueID>
+    <ExternalParentID>P-e02d7ab4-e259-4dcf-9a42-37169ac79099</ExternalParentID>
+    <Name>Aktorzy</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <Actor>
+    <UniqueID>A-8de9bc3b-5887-4df5-82d8-6e82878fd2da</UniqueID>
+    <UserID>A-1</UserID>
+    <ParentID>P-90074208-fc45-4b82-b86a-93e752f99363</ParentID>
+    <Name>Sprzedający</Name>
+    <Description>Osoba oferująca towar na aukcji.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Osoba oferuj\'b9ca towar na aukcji.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Complexity />
+    <DateAdded>2018-11-03T16:15:03.2851701+01:00</DateAdded>
+    <DateModified>2020-11-03T08:57:59.4151671+01:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-3088af02-aba3-4fc0-a55e-c51be21da34a</UniqueID>
+    <UserID>A-2</UserID>
+    <ParentID>P-90074208-fc45-4b82-b86a-93e752f99363</ParentID>
+    <Name>Kupujący</Name>
+    <Description>Osoba chcąca zakupić produkt na aukcji.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Osoba chc\'b9ca zakupi\'e6 produkt na aukcji.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Complexity />
+    <DateAdded>2018-11-03T16:15:10.1926683+01:00</DateAdded>
+    <DateModified>2020-11-03T09:03:53.6575416+01:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-6725afa4-10aa-489d-95a9-7ad6bc1f9657</UniqueID>
+    <UserID>A-5</UserID>
+    <ParentID>P-90074208-fc45-4b82-b86a-93e752f99363</ParentID>
+    <Name>System platnosci</Name>
+    <Sequence>2</Sequence>
+    <Complexity />
+    <DateAdded>2020-11-03T08:25:24.1237889+01:00</DateAdded>
+    <DateModified>2020-11-03T09:04:04.3472622+01:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-a48af051-0ec2-4e6a-ba2e-d2a90395a854</UniqueID>
+    <UserID>A-1-1</UserID>
+    <ParentID>P-90074208-fc45-4b82-b86a-93e752f99363</ParentID>
+    <Name>System aukcyjny</Name>
+    <Description>System zawierający dane o produktach</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 System zawieraj\'b9cy dane o \cf1 produktach\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Complexity />
+    <DateAdded>2020-11-09T18:11:25.3272335+01:00</DateAdded>
+    <DateModified>2020-11-09T18:12:52.6838319+01:00</DateModified>
+  </Actor>
+  <Goal>
+    <UniqueID>G-4b9e6429-69e3-411d-9df4-bce1bab9f4b4</UniqueID>
+    <ParentID>A-8de9bc3b-5887-4df5-82d8-6e82878fd2da</ParentID>
+    <Description>Wystawienia produktu na aukcji (UC-2)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Wystawienia produktu na aukcji (\cf1\ul UC-2\cf0\ulnone )\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-0d76559e-e5a5-426c-8f79-b4d99417626c</UniqueID>
+    <ParentID>A-8de9bc3b-5887-4df5-82d8-6e82878fd2da</ParentID>
+    <Description>Przekazanie produktu (UC-4)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Przekazanie produktu \fs20 (\cf2\ul UC-4\cf1\ulnone )\cf0\fs20\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-1a995cc4-a6a1-4e8c-8a18-19000aa6fa13</UniqueID>
+    <ParentID>A-3088af02-aba3-4fc0-a55e-c51be21da34a</ParentID>
+    <Description>Przebicie oferty (UC-6)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Przebicie oferty (\cf1\ul UC-6\cf2\ulnone )\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-9956b774-8869-4e20-befb-8c7d26a577d2</UniqueID>
+    <ParentID>A-6725afa4-10aa-489d-95a9-7ad6bc1f9657</ParentID>
+    <Description>Przekazanie gotowki (UC-6)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Przekazanie gotowki (\cf1\ul UC-6\cf2\ulnone )\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-1f24e482-5637-4146-91e1-649ca5a66a0c</UniqueID>
+    <ParentID>A-a48af051-0ec2-4e6a-ba2e-d2a90395a854</ParentID>
+    <Description>Wypisanie informacji o produkt (UC-8)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Wypisanie informacji o \cf1 produkt (\cf2\ul UC-8\cf1\ulnone )\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+  </Goal>
+  <UserID>
+    <DefaultPrefix>UC-1-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-1-</DefaultPrefix>
+    <NextValue>2</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-1-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-1-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>S-1-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>
